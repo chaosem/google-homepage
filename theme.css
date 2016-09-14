@@ -9,7 +9,8 @@ body {
 }
 
 a {
-
+	text-decoration: none;
+	color: #666;
 }
 
 nav {
@@ -20,6 +21,16 @@ nav li{
 	list-style: none;
 	display: inline-block;
 	margin: 5px;
+}
+
+.container {
+	margin-top: 50px;
+}
+
+.bar {
+	width: 40%;
+	height: 25px;
+	margin-bottom: 20px;
 }
 
 .logo {
@@ -38,12 +49,12 @@ nav li{
 	list-style: none;
 	display: inline;
 	float: left;
-	margin: 5px;
+	margin: 5px 15px;
 }
 
 .privacy li {
 	list-style: none;
 	display: inline;
 	float: right;
-	margin: 5px;
+	margin: 5px 15px;
 }
